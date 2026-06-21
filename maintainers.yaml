@@ -1,0 +1,21 @@
+# Maintainer roster for KubeArmor
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+
+#  Maintainers: Please connect your GitHub handle to your LFID on openprofile.dev to enable automatic access to CNCF resources. The system will use your primary email address for setup.
+maintainers:
+  - project_id: "kubearmor"
+    org: "kubearmor"
+    teams:
+      - name: "project-maintainers"
+        members:
+          - nyrahul
+          - achrefbensaad
+          - Ankurk99
+          - kranurag7
+          - daemon1024
+          - nam-jaehyun
+          - rksharma95
+          - DelusionalOptimist
+          - rootxrishabh
+          - Aryan-sharma11

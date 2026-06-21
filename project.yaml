@@ -1,0 +1,68 @@
+# .project metadata for KubeArmor
+# Documentation: https://github.com/cncf/automation/tree/main/utilities/dot-project
+
+# TODO: Add package_managers if distributed via registries
+
+schema_version: "1.0.0"
+slug: "kubearmor"
+name: "KubeArmor"
+description: "Runtime protection for Kubernetes & other cloud Workloads. Kubearmor provides a observability and policy enforcement system to restrict any unwanted, malicious behaviour of cloud-native workloads at runtime."
+type: "project"
+project_lead: "nyrahul" # TODO: AUTO-DETECTED — please verify
+slack_channels: # TODO: AUTO-DETECTED — please verify the channel(s) below
+  - name: "#kubearmor-project"
+    link: "http://kubearmor.slack.com/"
+    primary: true
+
+maturity_log:
+  - phase: "sandbox"
+    date: "2021-11-16T00:00:00Z"
+    issue: "https://github.com/cncf/toc/pull/1069" # TODO: AUTO-DETECTED — please verify
+
+repositories:
+  - "https://github.com/kubearmor/kubearmor"
+
+website: "https://kubearmor.io/"
+
+artwork: "https://landscape.cncf.io/logos/kubearmor.svg"
+
+adopters:
+  path: "https://github.com/kubearmor/KubeArmor/blob/main/ADOPTERS.md"
+
+
+# TODO: Add package manager identifiers if your project is distributed via registries
+# package_managers:
+#   docker: "kubearmor/KubeArmor"
+
+
+security:
+  policy:
+    path: "https://github.com/kubearmor/KubeArmor/blob/main/SECURITY.md"
+  contact:
+    advisory_url: "https://github.com/kubearmor/KubeArmor/security/advisories/new"
+
+governance:
+  contributing:
+    path: "https://github.com/kubearmor/KubeArmor/blob/main/CONTRIBUTING.md"
+  code_of_conduct:
+    path: "https://github.com/kubearmor/KubeArmor/blob/main/CODE_OF_CONDUCT.md"
+
+legal:
+  license:
+    path: "https://github.com/kubearmor/KubeArmor/blob/main/LICENSE"
+  identity_type:
+    has_dco: true # AUTO-DETECTED — please verify
+    has_cla: false # AUTO-DETECTED — please verify
+    dco_url:
+      path: "https://developercertificate.org/"
+
+documentation:
+  readme:
+    path: "https://github.com/kubearmor/KubeArmor/blob/main/README.md"
+
+landscape:
+  category: "Provisioning"
+  subcategory: "Security & Compliance"
+
+# CLOMonitor Score: 87/100
+# Documentation: 88 | License: 100 | Best Practices: 74 | Security: 59
